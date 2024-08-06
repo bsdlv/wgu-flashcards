@@ -1,1 +1,1 @@
-# wgu-flashcards
+# wgu-flashcards, comes with flash.c which is the file that must be compiled with gcc, and all of the *.flash files are overall flashcards for the entire course. flash.c is the file that runs the flashcard iterator, and can be started by first compiling the file with "gcc flash.c -o <whatever you want to name it>" and then running the program from the command line

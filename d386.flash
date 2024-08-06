@@ -1,0 +1,568 @@
+Designed to manage resources on devices such as sensor, controller, etc. Light-weight OS kernel:
+--Embedded Operating System
+
+What is the execution of multiple instruction sequences at the same time?
+--Concurrency
+
+When does concurrency occur and how do they communicate?
+--Several process threads running in parallel communicating through shared memory or message passing
+
+An OS that allows multiple users to accesss underlying hardware resources simultaneously. Time-sharing batch processing
+--Multi-user OS
+
+Outermost layer of the OS
+--Shell
+
+What is a thin client?
+--A computer that uses resources housed inside a central server. Connects to server environment for apps, memory, data
+
+What is a mainframe OS?
+--Networking software infrastructure that allows mainframe to run programs, connect linked machinesand perform complex tasks
+
+What is a network server?
+--Device that centralizes resources within an organization and allow users to store and access data and files
+
+What can a real-time system do?
+--Respond to events within predicatable and specific time contstraints.
+
+Name two system languages
+--C++, Java
+
+What are control statements?
+--Statements that change the flow of execution: if/else, switch/case, while/does
+
+What is a file management system?
+--Used to store, organize, locate, track and manage docs or any digital files
+
+What is BIOS?
+--Basic Input/Output System. Program that turns on the microprocessor and manages data flow between OS and devices
+
+What is cooperative multitasking?
+--Multitasking method that depends on application to be responsible for using processor and freeing instruction
+
+What is preemptive multitasking?
+--Multitasking method where OS allocates applications a certain amount of process time and then forcibly take it back
+
+What is multithreading?
+--Ability of an application to have multiple requests into the processor at one time
+
+What is an ARM or Advance RISC Machine?
+--Reduced Instruction Set Computing, commonly found on tablets and smart phones
+
+What kind of memory is used to hold the OS code and programs opened on the OS?
+--RAM
+
+What is Extended Support?
+--Final stage of OS lifecycle, critical security updates are only thing supported
+
+When might an optical disk application installation be used?
+--When there is only one machine to install the software on
+
+When do you use an ISO mountable application install?
+--Used with virtualization, products such as Hyper-V or VMWare Workstation
+
+What is the Host Bus Adapter?
+--The translator, convering signals from controller to signals for peripherals
+
+What is the memory data register?
+--The register in the CPU that stores data being transferred to/from immediate access storage
+
+What is the memory address register?
+--The register that stores the memory address from which the data will be retrieved
+
+What is an application system?
+--Used to create, store, modify, view info/data
+
+What is specialized software on a chip called?
+--Firmware
+
+What is virtual memory also known as, and what does it do?
+--A page file, and it is placed into space on a HD allocated by the OS where it pretends to be memory
+
+What is virtualization?
+--Host computer installed with hypervisor, used to install and manage multiple guest operating systems or VMs
+
+What is a Type 1 Hypervisor?
+--Hypervisor that runs directly on hardware and functions as the OS. Called a 'bare metal' hypervisor
+
+What is a Type 2 Hypervisor?
+--A hosted Hypervisor, running as software on the OS, installed on top of the host OS
+
+What is containerization?
+--A type of virtualization applied by a host operating system to provision isolated execution environment
+
+What is DHCP?
+--Dynamic Host Configuration Protocol.Provides an IP address to machines on the network and eliminates config errors
+
+What is DNS?
+--Domain Name System. Helps network clients find website using human-readable hostnames instead of IP addresses
+
+Transfer speed of CAT4?
+--16mbps
+
+What is a hub and what is unique about it?
+--Networking device connecting multiple devices on a network. It is designed to broadcast all incoming traffic to all connected devices
+
+What is it called when you manage apps and data, and service provider mananges everything else?
+--Platform as a service
+
+What part of the CPU performs arithmetic computations and logical operations?
+--Arithmetic Logic Unit
+
+What is a Repeater and what layer of the OSI model is it?
+--Network device that amplifies the signal it receives to cover long distances, works on physical layer
+
+How fast is CAT3?
+--10mbps
+
+What is RAID1?
+--RAID array type that provides fault tolerance using mirroring. All data is written identically to both drives in Set
+
+What are RAID arrays used for?
+--Using multiple hard drives for data redundancy and error checking
+
+What is RAID0?
+--Uses striping. Splits data across two or more drives, without redundancy. Faster, but if one drive fails all data lost
+
+What type of virus will modify host files instead of attaching to them
+--Phage virus
+
+What is RAID10?
+--Combination of RAID0/1 that requires at least 4 disks. Combines disk mirroring and Stripping
+
+What is RAID5?
+--Technique that stripes data across 3 or more drives for redundancy, and other drives can recreate data stored on drive
+
+When is CouchDB not appropriate?
+--A rapidly growing database where the structure is not clear and defined from the beginning
+
+What does the Southbridge do?
+--Allows CPU to communicate with slower speed devices (hard drives, USB ports, expansion slots..)
+
+What does Northbridge do?
+--Controls high speed access to RAM and GPU, controls the speeds CPU communicates with other components. Video sometimes integrated
+
+What is control unit?
+--Processor component manages the execution of instructions during fetch-execute cycle, directs operations of processor
+
+What is L1 cache?
+--Memory directly on the processor to improve performance
+
+What is IaaS?
+--Service provider only handles virtualization, servers, storage, and Networking
+
+What is pipelining?
+--Technique that allows CPU to work on more than one instruction at a time
+
+What are containers?
+--Type of lightweight virtualization for shared OS to save resources and increase speed. Packages of software that contain all necessary elements to run in any environment. Sits directly on top of host OS
+
+What do you look for in fast RAM?
+--Clock speed or lower latency
+
+What is SRAM (Static RAM)
+--Used primarily for cache, does not need to be refreshed and is faster than regular DRAM. Uses flip-flop circuit
+
+What is it called when you manage everything and the service provider manages nothing?
+--On-site
+
+What storage device should be used in an area highly magnetized?
+--SSD
+
+What is ROM?
+--Used to bootstrap the PC, Read-Only Memory that is permanent storage, instructions burned onto chip
+
+What is an access point?
+--Network device that creates a WLAN in office/large building. Connects to wired router/switch/hub and projects WiFi to area
+
+What are Android and iOS apps written in?
+--Android: Java and Kotlin, iOS Swift and objective C
+
+What is the point of connection between peripheral components and the motherboard?
+--PCIe slots
+
+What cloud service would the Runtime be on?
+--PaaS
+
+What type of DIMM is used in laptops?
+--So-DIMM
+
+What is the smallest motherboard set?
+--Mobile-ITX
+
+This motherboard type has processor and memory slots at right angles to the expansion cards
+--ATX
+
+What is L2 Cache?
+--Larger, little slower than L1. For processors with multiple cores, each will have its own dedicated L1/L2
+
+What is L3 Cache?
+--Larger and slower than L1 and 2, shared among all processor cores
+
+Network topology easy to set up but expensive to reconfigure
+--Bus
+
+Network topology has interconnected routers and switches that provide multiple paths to all nodes on network
+--Mesh
+
+What is Node.js
+--OSS, JavaScript-based runtime environment built on chrome v8JS. Allows devs to execute JavaScript code server-side
+
+What is Kafka?
+--Event and messaging service
+
+Tech stack for virtualization
+--Docker, Kubernetes
+
+Where is SRAM mostly used
+--Cache memory
+
+What is Address Resolution Protocol?
+--Used to map network/IP address to physical MAC address. Sends request to network for info
+
+Directs traffic between different networks and routes traffic between them
+--Router
+
+Give two examples of interpreted languages
+--Python, JS, Ruby, PHP, Perl
+
+What is branching?
+--Control flow structure that allows different paths based on certain oncidionts. If, if/else, switch are all examples
+
+Where are event data logs stored?
+--Syslog
+
+What is bus architecture?
+--Communication system that transfers data between components inside a single computer or between multiple computers
+
+What are chipsets?
+--Connect and coordinate between the various components on the motherboard. Handles data transfer, control, and management
+
+The VM sits directly on top of?
+--The hypervisor
+
+What kind of virus attepts to disable any antivirus on the system to avoid detection?
+--Retrovirus
+
+What is etched on a silicon chip?
+--Pattern of electronic circuits and components that form basis for electronic devices
+
+What is a switch
+--Multiport network bridge that uses MAC addresses to forward information, operates on the data link layer
+
+What does a Workstation OS do
+--Allows end users to access info/apps on a server, run apps locally. Optimized for foreground processes&uch as GUI. Background sharing limited to specific number of users
+
+What contains object storage, identity, runtime, queues, and databases
+--PaaS
+
+What is multiprogramming
+--When an OS loads multiple programs into memory simultaneously, allowing for concurrent execution
+
+What is used to translate commands from the OS
+--Driver
+
+Exploits enhancements made to apps. This virus infects documents on system and spreads via email or other methods. One of the fastest-growing exploits today
+--Macrovirus
+
+Give two common web servers and what they do
+--Web server takes in request from client, passes it to database and handles response. Apache and Nginx
+
+Companion virus?
+--Attaches to legit program, creates program with diff file extension and executes instead of real program
+
+Virus that tries to attack and disable AV software
+--Retrovirus
+
+What does a container sit directly on top of
+--Host OS
+
+What does a router use to direct traffic and how does it make decisions about traffic forwarding
+--IP addresses and routing tables
+
+Where does DRAM store each bit of data?
+--A memory cell, usually consisting of a tiny capacitor and transistor
+
+What kind of languages are C/C++, Rust, and Java
+--System languages
+
+What kind of hypervisors are VMVWare Workstation or Parallels Desktop
+--Type 2
+
+What kind of hypervisors are VMware vSphere/ESXi, Xen
+--Type 1
+
+What is the top of the reconfigurable computing software pyramid
+--Scripting
+
+What scripting or programming tool uses cmdlet
+--Powershell
+
+How do PCs avoid burdening CPU with programmed I/O
+--Offloading to a direct-memory-access (DMA) controller
+
+What problem is managed by implementing a file system
+--Logical structure for organizing and storing files on a storage device
+
+What is the primary function of the file system interface
+--Provide a way for the system to access and use files
+
+Which cloud feature allows different types of clients and devices to access the resources
+--Broad network access
+
+The physical layer is the __ layer that deals with
+--First, deals with physical equipment
+
+The second layer is the __ that is responsible for
+--Data link layer, communication between directly connected devices in the same network.
+
+The third layer is the __ and it
+--Network layer, uses IP addresses to route packets between separate networks. Router layer
+
+The transport layer is the __ and it
+--Fourth, manages flow control. TCP and UDP operate here
+
+The session layer is the __ and it
+--Fifth, maintains/terminates communications between devices
+
+The presentation layer is the __ and it is responsible for
+--Sixth, handles data translation, encryption, compression
+
+The final __ layer is the __ layer and includes protocols
+--7th, Application layer, HTTP FTP SNMP
+
+What kind of virus exploits apps that use mini-basic programming language
+--Macrovirus
+
+What automatic config process occurs when a Windows-based DHCP client is unable to reach a DHCP server
+--Automatic private IP addressing (APIPA)
+
+What type of protocol should be in place to support streaming purposes with Kafka
+--Transmission Control Protocol (TCP)
+
+What type of isolation do all virtualized containers employ
+--Process
+
+What is a characteristic of virtualized containers
+--Containers share the same host OS
+
+Which network device is considered passive in terms of how it connects to other devices
+--Hub, it amplifies network signals and connects network components or nodes
+
+What is a feature of cloud-based OSes
+--They are primarily stateless
+
+Why do applications designed to work on one OS not work on different OS
+--OSes have unique system calls
+
+What is one reason why programmed I/O does not work well when the device is a hard disk or graphics display
+--A complete instruction fetch-execute cycle must be performed to transfer each I/O data word
+
+What type of memory packaging can support dual, triple, and quad channels
+--DDR3
+
+What is a key similarity between RAM and memory cards
+--They are solid state
+
+What size data path do today's DIMMs use
+--64bit
+
+What feature of SSD flash memory ensures logical block addressing does not always address the same physical block's drive
+--Wear leveling
+
+What hard disk drive interface is recommended for professional use
+--SCSI
+
+What is the minimum RAM requirement for 64bit Win11
+--4gb
+
+What is RAM requirement for creating or editing high-definition media
+--16gb
+
+What type of tech would be used to create WAN
+--Leased lines
+
+What is requirement to run hypervisor program on PC
+--Highend CPU
+
+Network structure for local building connectivity
+--LAN
+
+What connection type is used for VPN tech when setting up WAN
+--Fiber optic
+
+What cloud service classification describes VMware and Azure
+--PaaS
+
+Most common type of tech stack in web apps?
+--Full stack
+
+Which database is the best option for storing data in RAM when creating the backend
+--Redis
+
+What cloud service level provides cloud-based application and virtual storage accessible by web browser
+--SaaS
+
+Cloud service model for building and testing application over internet and releasing resources on completion
+--PaaS
+
+What is MongoDB and what is it used for
+--NoSQL, document-based database, used for mobile applications, real time analytics, apps using large volumes of data
+
+How fast is CAT5e
+--1gbps
+
+What is Ruby's service stack
+--Ruby, Ruby on Rails, Bundler
+
+What is Angular, what if anything else is it known as, who developed it, what stack
+--Typescript, has a modular structure, Google, frontend
+
+What are the differences between Vue, React, and Angular
+--Vue is a progressive framework, Angular is a full-fledged frontend framework, React is a UI library
+
+What process optimizes allocation, tracking, and sharing of memory among processes
+--Process Control Management
+
+What is UTM
+--Multiple security features combined in one device on the network
+
+What does Vue focus on
+--Simplicity and ease of integration, frontend
+
+What is the difference between MEAN and LAMP stack
+--MEAN has no OS/is OS agnostic, well suited to be installed on a server or containerized and used as microservices. LAMP stack is always deployed on Linux (the L stands for it)
+
+What is the form factor for Micro-ITX
+--Smaller than mini, only 4 expansion card slots
+
+What is React and who developed it
+--A component based architecture, Facebook, frontend
+
+What is multipartite virus
+--Combines malicious code and attacks through various routes
+
+What is the JavaScript service stack
+--Node.js, Express, JS, npm
+
+What is the function of a runtime environment
+--Acts as a small OS and provides all functionality needed for a program to run
+
+How fast is CAT6
+--1gbps like CAT5e but higher data transfer rates
+
+How fast is CAT6a
+--10gbps
+
+Which system hardening technique involves securing a data-based system's ports, data, permissions, and functions
+--Server hardening
+
+What layer do the following operate on: switch, hub, access point, router
+--Switch 2, hub 1, access point 2, router 3
+
+What are Trojan viruses
+--Malicious software disguised as legit software that performs harmful actions when executed
+
+Which type of virus intends to make itself difficult to detect or analyze
+--Armored virus
+
+Which network solution helps distribute traffic across multiple servers
+--Load balancing
+
+What is central storage solution that automatically scales with their storage needs and when use
+--NAS, eliminates need to back all up to single storage location, can upload files directly to cloud backup
+
+What is the purpose of a framework
+--Provide base for app development
+
+What is Ruby
+--Dynamic, OSS, full-stack web dev environment Ruby on Rails, can build both front and backend
+
+What is CouchDB and how is it different from MongoDB
+--NoSQL, doc-based, JSON-like docs, MongoDB indexing is faster. MongoDB is used for mobile apps, real-time analytics, and apps using large volumes of data. CouchDB is used for web apps
+
+What is Java's service stack
+--Java, Spring, Maven
+
+What is Python's service stack
+--Python, Django, Pip
+
+What is a MEAN stack
+--MongoDB, Express.js, Angular, Node.js
+
+What is WAMP stack
+--Windows, Apache, MySQL, PHP
+
+When would a dev use WAMP over LAMP
+--If already running in Windows environment
+
+What is the MEVN stack
+--MongoDB, Express.js, Vue, Node.js
+
+What stack is more similar to MEAN
+--MEVN
+
+What does CPU actually do
+--Interpret, process, execute instructions from hardware and software
+
+What does PaaS provide generally
+--A platform and environment for devs to build apps and services over the internet
+
+What is DaaS
+--Desktop as a service, provides desktop delivered over web managed by third party (eg AWS)
+
+CaaS
+--Container as a Service. Cloud service that allows users to manage and deploy containers and microservices architectures
+
+What is FaaS
+--Function as a Service, serverless container
+
+Methods of network hardening?
+--Firewall, access control, port management, encryption, server and database hardening, secure routers and switches
+
+Data speed of CAT1
+--1mbps
+
+Data speed CAT2
+--4mbps
+
+What is a zero/ultra-thin client
+--Has no storage and requires server for resources
+
+What does AAA stand for
+--Authentication, authorization, accounting
+
+What is accounting
+--Monitoring resources used during network access
+
+What is the motherboard
+--Printed circuit board containing components and connectors
+
+What kind of slots do SSD and WiFi cards use
+--M.2
+
+What Java IDE also works for C++ and Python
+--Eclipse
+
+What Java IDE also works for Javascript and HTML
+--NetBeans
+
+How fast CAT5
+--100mbps
+
+How fast CAT5e
+--1gbps
+
+What is Program I/O
+--Interaction between computer program and external devices or data sources, enable data exchange for program to work
+
+What is software pyramid
+--Hardware, OS, Programming languages, Applications, Web/scripting
+
+What is Symbian OS
+--Deprecated OS that powered early smartphones
+
+What service or role is an example of a use case for containers
+--Microservices
+
+
