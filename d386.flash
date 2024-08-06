@@ -227,7 +227,7 @@ Give two examples of interpreted languages
 --Python, JS, Ruby, PHP, Perl
 
 What is branching?
---Control flow structure that allows different paths based on certain oncidionts. If, if/else, switch are all examples
+--Control flow structure that allows different paths based on certain conditions. If, if/else, switch are all examples
 
 Where are event data logs stored?
 --Syslog
@@ -301,9 +301,6 @@ What scripting or programming tool uses cmdlet
 How do PCs avoid burdening CPU with programmed I/O
 --Offloading to a direct-memory-access (DMA) controller
 
-What problem is managed by implementing a file system
---Logical structure for organizing and storing files on a storage device
-
 What is the primary function of the file system interface
 --Provide a way for the system to access and use files
 
@@ -328,7 +325,7 @@ The session layer is the __ and it
 The presentation layer is the __ and it is responsible for
 --Sixth, handles data translation, encryption, compression
 
-The final __ layer is the __ layer and includes protocols
+The final __ layer is the __ layer and includes protocols such as
 --7th, Application layer, HTTP FTP SNMP
 
 What kind of virus exploits apps that use mini-basic programming language
@@ -388,9 +385,6 @@ What is requirement to run hypervisor program on PC
 Network structure for local building connectivity
 --LAN
 
-What connection type is used for VPN tech when setting up WAN
---Fiber optic
-
 What cloud service classification describes VMware and Azure
 --PaaS
 
@@ -415,7 +409,7 @@ How fast is CAT5e
 What is Ruby's service stack
 --Ruby, Ruby on Rails, Bundler
 
-What is Angular, what if anything else is it known as, who developed it, what stack
+What is Angular, what if anything else is it known as, who developed it, is it frontend or backend
 --Typescript, has a modular structure, Google, frontend
 
 What are the differences between Vue, React, and Angular
@@ -469,7 +463,7 @@ Which type of virus intends to make itself difficult to detect or analyze
 Which network solution helps distribute traffic across multiple servers
 --Load balancing
 
-What is central storage solution that automatically scales with their storage needs and when use
+What is central storage solution that automatically scales with  storage needs and use
 --NAS, eliminates need to back all up to single storage location, can upload files directly to cloud backup
 
 What is the purpose of a framework
@@ -549,9 +543,6 @@ What Java IDE also works for Javascript and HTML
 
 How fast CAT5
 --100mbps
-
-How fast CAT5e
---1gbps
 
 What is Program I/O
 --Interaction between computer program and external devices or data sources, enable data exchange for program to work
