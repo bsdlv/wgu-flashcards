@@ -8,5 +8,5 @@ Question</br>
 Answer, prefaced by --</br>
 
 # example
-"Where is SRAM primarily used"</br>
-"--Cache memory"
+Where is SRAM primarily used</br>
+--Cache memory
